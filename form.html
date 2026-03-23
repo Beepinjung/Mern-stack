@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="GET">
+    <h1><b>This is a profile/login form</b></h1>
+    <label for="1stName">First Name:</label>
+    <input type="text" id="1stName" name="FirstName" minlength="5" maxlength="15"><br/><br />
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="Last Name" minlength="3" maxlength="20"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="Age" min="0" max="120"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="Email" ><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="Password" minlength="6" maxlength="20"><br><br> 
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="ConfirmPassword"   minlength="6" maxlength="20"><br><br>
+
+    <label  for="">Checkbox:</label>
+    <input required type="checkbox" id="q1" name="skills[]" value="HTML" >
+    <label for="q1">Html</label>
+    
+    <input type="checkbox" name="skills[]" id="q2" value="CSS">
+    <label for="q2">CSS</label>
+
+    <input type="checkbox" name="skills[]" id="q3" value="JavaScript">
+    <label for="q3">JavaScript</label> <br><br>
+
+    Radio Button:
+    <input type="radio" name="Gender" id="g11" value="Male">
+    <label for="g11">Male</label>
+
+    <input type="radio" name="Gender" id="g12" value="Female">
+    <label for="g12">Female</label>
+
+    <input type="radio" name="Gender" id="g33" value="Chakka" >
+    <label for="g33">Chakka</label><br><br>
+
+    <label for="11">File</label>
+    <input type="file" src="" id="11" accept=".jpg ,.png, .pdf" multiple ><br><br>
+
+    <label for="range">Range</label>
+    <input type="range" name="Range" id="range" step="2"><br><br>
+
+    <label for="color">Color</label>
+    <input type="color" name="" id="color"><br><br> 
+
+    <label for="submit">submit</label>
+    <input type="submit" id="submit" name="submit" value="Submit"><br><br>
+
+    <input type="image"src="./cat.webp" alt="Submit" width="100" height="50"><br><br>
+    <input type="datetime-local"><br><br>
+
+    <button type="submit"> submit</button><br><br>
+    <button type="reset">Reset</button><br><br>
+    <button type="button">HEllo</button><br><br>
+
+    
+    <textarea name="text" id="101" name="Text"></textarea><br><br>
+
+    <label for="country">country</label>
+    <select name="country" id="country">
+        <option value="" disabled selected>Check your country</option>
+            <optgroup label="Asia">
+            <option value="india">India</option>
+            <option value="china">China</option>
+        </optgroup>
+        <optgroup label="Europe">
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+        </optgroup>
+    </select>
+    
+    <label for="45">Search</label>
+    <input type="search" id="45" list="animals"><br><br>
+    <datalist id="animals">
+        <option value="Dog">Dog</option>
+        <option value="Cat">Cat</option>
+        <option value="Rabbit">Rabbit</option>
+        <option value="Hamster">Hamster</option>
+        <option value="Cow">Cow</option>
+    </datalist>
+
+
+    </form>
+</body>
+</html>
