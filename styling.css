@@ -1,0 +1,40 @@
+
+.card {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(202, 253, 140);
+  border: 1px solid black;
+  font-size: 2rem;
+}
+
+.card.two {
+  height: 150px;
+  width: 150px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Cross axis alignment */
+  justify-content: center; /* Main axis alignment */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: lightblue;
+}
+
+ul {
+  margin: 2rem;
+  list-style: square; /* disc, circle, square, none */
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  background-color: azure;
+  padding: 1rem;
+}

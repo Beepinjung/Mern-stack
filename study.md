@@ -55,3 +55,7 @@ class: .title | priorityid>class>element
 id: `#title`
 
 class vs id
+for font-size marging padding use rem
+for border,border-radioous,left,right,top,botoom, shadow user px
+pseudo-class:
+hoevr, focus, check, disabled,required, first-child, last-child, nth child

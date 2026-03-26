@@ -1,0 +1,55 @@
+/* text  */
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline wavy;
+
+}
+
+.para{
+    text-align: left;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: aqua;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 8px red;
+    line-height: 30px;
+}
+/* font */
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(0, 255, 0);
+}
+/* margin (box model) */
+.margin{
+    margin: 20px, 20px, 20px, 1px;
+    margin-block: 30px;
+    margin-inline: 20px;
+    padding: 20px, 20px, 20px, 1px;
+    padding-block: 20px;
+    padding-inline: 20px;
+    background-color: rgb(0, 255, 255);
+    border: 20px;
+    border-radius: 10px;
+}
+/* display */
+.display{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+/* diplay-flex */
+.display-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    column-gap: 10px;  
+    flex-wrap: wrap;
+}
