@@ -1,0 +1,23 @@
+input{
+    width: 100%;
+    height: 20px;
+}
+form{
+    height: 500px;
+    max-width: 50%;
+    margin-inline: auto;
+    padding: 2rem;
+    margin-block: 2rem;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: lightgray;
+}
+.control{
+    margin: 5px 5px 5px 5px;
+    padding: 4px 4px 4px 4px ;
+}
+.radio,
+.checkbox{
+    width:10%
+}
+

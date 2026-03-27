@@ -59,3 +59,10 @@ for font-size marging padding use rem
 for border,border-radioous,left,right,top,botoom, shadow user px
 pseudo-class:
 hoevr, focus, check, disabled,required, first-child, last-child, nth child
+task:
+make a portfolio
+your image at top and rounded
+name with large size
+bio
+social contack with icon
+contact:name,emai,subject,message
